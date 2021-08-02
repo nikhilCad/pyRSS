@@ -19,7 +19,7 @@ titles = []
 links = []
 
 labelList = []
-n=5
+
 
 startFrame = tk.Frame(root)
 pageFrame = tk.Frame(root)
@@ -60,7 +60,7 @@ for i in range(len(feedlist)):
 
 
 
-for i in range(n):
+for i in range(len(titles)):
 ##    labelList.append( tk.Message(root, text = titles[i],
 ##                                 width = 200, anchor = "e",
 ##                                 ) )#e for East

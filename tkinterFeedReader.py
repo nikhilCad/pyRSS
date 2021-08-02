@@ -57,7 +57,10 @@ for i in range(len(feedlist)):
         titles.append( tempfeed.entries[j].title )
         links.append( tempfeed.entries[j].link ) 
 
+addFeed = tk.Button(startFrame, text = "ADD FEED",
+            wraplength = 400 )
 
+addFeed.pack()
 
 
 for i in range(len(titles)):

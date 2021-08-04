@@ -6,6 +6,7 @@ from newspaper import Article
 root = tk.Tk()
 root.geometry("400x500")
 root.title("pyRSSreader")
+root.resizable(False, False)
 
 feedlist = [
 ##    "https://www.thenewsminute.com/kerala.xml",
